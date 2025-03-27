@@ -27,11 +27,16 @@
     //  marker.getPopup().setContent(marker.getLatLng().toString()).openOn(map);
     //});
   //Markers
-    var marker = L.marker([62.410729, -10.59082], {
+    var group = L.marker([62.410729, -10.59082], {
       draggable: false,
       opacity: 0.8,
     }).addTo(map);
-    marker.bindPopup('The Duskwatchers');
+    group.bindPopup('The Duskwatchers');
+
+    var blackspirecavern = L.marker([63.07984, -10.700684], {
+      opacity: 0.8,
+    }).addTo(map);
+    blackspirecavern.bindPopup('Blackspire Cavern');
     </script>
   </body>
 </html>
