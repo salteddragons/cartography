@@ -19,15 +19,15 @@
       maxZoom: 7,
     }).addTo(map);
   //Coordinate Finder
-    //var marker = L.marker([63.410729, -10.59082], {
-    //  draggable: true,
-    //}).addTo(map);
-    //marker.bindPopup('LatLng Marker').openPopup();
-    //marker.on('dragend', function(e) {
-    //  marker.getPopup().setContent(marker.getLatLng().toString()).openOn(map);
-    //});
+   // var marker = L.marker([63.410729, -10.59082], {
+   //   draggable: true,
+   // }).addTo(map);
+   // marker.bindPopup('LatLng Marker').openPopup();
+   // marker.on('dragend', function(e) {
+   //   marker.getPopup().setContent(marker.getLatLng().toString()).openOn(map);
+   // });
   //Markers
-    var group = L.marker([63.538763, -0.186768], {
+    var group = L.marker([60.348696, 4.086914], {
       draggable: false,
       opacity: 0.8,
     }).addTo(map);
@@ -37,6 +37,11 @@
       opacity: 0.8,
     }).addTo(map);
     blackspirecavern.bindPopup('Blackspire Cavern');
+
+    var blackspirecavern = L.marker([60.359564, 4.438477], {
+      opacity: 0.8,
+    }).addTo(map);
+    blackspirecavern.bindPopup('Weather Tower');
     </script>
   </body>
 </html>
